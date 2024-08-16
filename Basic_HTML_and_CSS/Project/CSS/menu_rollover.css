@@ -37,7 +37,7 @@ body {
     background-color: #387593;
     cursor: pointer;
 }
-.menu li: hover {
+.menu li:hover {
     background-color: #5EAFDF;
     color: #fff;
 }
