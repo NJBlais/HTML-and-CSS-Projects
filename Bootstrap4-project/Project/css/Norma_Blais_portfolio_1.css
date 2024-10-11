@@ -1,0 +1,45 @@
+/***** GENERAL STYLING *****/
+.navbar ul {
+    list-style: none;
+    background-color: rgb(10, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: block;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline;
+    text-align: left;
+}
+.navbar a:hover {
+    background-color: rgb(163, 156, 156);
+}
+.nav li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+/* Navbar hover effects */
+.Navbar a:hover {
+    background-color: #f4f4f4; /* Defines the background color that will display when you hover over the link */
+    color: black; /* This defines the font color that will display when navbar a elements are hovered over */
+    font-weight: bold; /* This makes the text on the navbar bold when hovered over */
+}
+
+/* Navbar home button */
+.Navbar a.active { /* This targets the a element on the navbar with the "active" class */
+    background-color: darkgray;
+}
